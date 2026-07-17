@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es-MX"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Plomería y Electricidad Sánchez | Expertos en Coyoacán</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-on-surface": "#eff1f4",
+                    "primary-fixed": "#dae2ff",
+                    "secondary-fixed": "#ffdf90",
+                    "on-tertiary-fixed": "#091d2e",
+                    "secondary-fixed-dim": "#f0c12c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-container": "#9eb1c7",
+                    "surface-container-high": "#e6e8eb",
+                    "outline-variant": "#c4c6d3",
+                    "tertiary-container": "#324456",
+                    "surface-bright": "#f7f9fc",
+                    "on-primary-container": "#8dadff",
+                    "on-tertiary": "#ffffff",
+                    "secondary-container": "#fccc38",
+                    "on-secondary-container": "#6f5600",
+                    "on-primary-fixed-variant": "#144296",
+                    "inverse-primary": "#b1c5ff",
+                    "on-secondary-fixed": "#241a00",
+                    "primary-fixed-dim": "#b1c5ff",
+                    "surface-tint": "#345baf",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#b5c8df",
+                    "on-error-container": "#93000a",
+                    "surface-container": "#eceef1",
+                    "surface-dim": "#d8dadd",
+                    "tertiary": "#1b2e3f",
+                    "on-secondary-fixed-variant": "#584400",
+                    "on-tertiary-fixed-variant": "#36485b",
+                    "primary": "#002869",
+                    "outline": "#747783",
+                    "on-surface-variant": "#434652",
+                    "surface-container-highest": "#e0e3e6",
+                    "on-primary-fixed": "#001947",
+                    "background": "#f7f9fc",
+                    "on-background": "#191c1e",
+                    "on-surface": "#191c1e",
+                    "surface": "#f7f9fc",
+                    "tertiary-fixed": "#d1e4fb",
+                    "secondary": "#755b00",
+                    "inverse-surface": "#2d3133",
+                    "surface-variant": "#e0e3e6",
+                    "error": "#ba1a1a",
+                    "on-error": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f2f4f7",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#0b3d91"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "unit": "8px",
+                    "gutter": "24px",
+                    "max-width": "1280px",
+                    "margin-desktop": "64px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["\"Source Serif 4\""],
+                    "label-md": ["Manrope"],
+                    "body-md": ["Manrope"],
+                    "headline-xl": ["\"Source Serif 4\""],
+                    "headline-md": ["\"Source Serif 4\""],
+                    "body-lg": ["Manrope"],
+                    "headline-lg": ["\"Source Serif 4\""],
+                    "label-sm": ["Manrope"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-xl": ["48px", {"lineHeight": "56px", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .white-tile-pattern {
+            background-color: #f7f9fc;
+            background-image:  linear-gradient(#e1e4e8 1px, transparent 1px), linear-gradient(90deg, #e1e4e8 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .pulse-ring {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md">
+<!-- Sticky Nav -->
+<nav class="sticky top-0 w-full z-50 bg-surface/95 backdrop-blur-md border-b border-outline-variant shadow-sm h-20">
+<div class="flex justify-between items-center px-6 md:px-margin-desktop max-w-max-width mx-auto h-full">
+<div class="flex items-center gap-2">
+<img alt="Plomería y Electricidad Sánchez" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpWlO1Sn1BN4y0zsF4u6lHpmZTSLuMcv1HSmF0xGtHUVVkHXir7ebpRrdnaPdMrIodkgCD4SpnutgL56yUYQkZsZkSTOV5CsU-Jw7N5ZrnmhXZ40pmh2uxlxYiXLUmspUlY-oa0JjwYYUy5MTnRLgyISqiuOUqDHAdoFOrvQbIl3hYCyrYe_s2RCgxzMEFHOS-LdgZaquAhvn8YxdO-SgUG4_53KavfWWO1Z4CcL0ochhKNNiebdFu79vqBGh-jaaQxSY"/>
+<span class="hidden lg:block font-headline-md text-headline-md font-bold text-primary tracking-tight">Sánchez</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-label-md text-label-md text-primary font-bold border-b-2 border-secondary pb-1" href="#inicio">Inicio</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#servicios">Servicios</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#galeria">Galería</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#proceso">Proceso</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#contacto">Contacto</a>
+</div>
+<a class="bg-primary text-on-primary px-6 py-2.5 rounded font-label-md text-label-md hover:bg-primary-container transition-all active:scale-95 duration-150" href="tel:+525560054779">
+            Llamar Ahora
+        </a>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative h-[85vh] flex items-center overflow-hidden" id="inicio">
+<div class="absolute inset-0 bg-primary/50 z-10"></div>
+<div class="absolute inset-0 z-0">
+<img alt="Técnico profesional trabajando en tuberías de cobre en Coyoacán" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqKr5NQQbb6VquSlAvl7EOQooGfN31k2zCd9OL1KQquEQWsoHbMgDJOR48eIIUIMvym2xyamPfXf3eXXjdmUGpMa1C5rAaNb3bm88RHc98OdStNLsAagkB3p_efXR0JeCc57lLyJ6r2mCUCj-TdKH8lAvoWTdXhEnbLjROt8HJdpgAP3K30lnmJYmDZ2XqySBqY0aR33y4_woVSBoPrG1a4IqTMewUfp0_5xszIsebCUSjPiMhsOIVpA"/>
+</div>
+<div class="relative z-20 max-w-max-width mx-auto px-6 md:px-margin-desktop w-full">
+<div class="max-w-3xl">
+<img alt="Logo Sánchez" class="w-48 md:w-64 mb-8 bg-white/10 p-2 rounded-lg backdrop-blur-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHhF3Pnthse-WbaRoYhEzn4HCUSXRMmFFvcC-SUZe1TwAUsrKTI0gfqOacopjinql3JTJoDl5bsq_HdnAzNl7Tn5Jt1hW-j37UJdghPHv4oP2CBszmirXFgs9SVwa1O8a8OjxUJXyn0bIj1BVYA-gtVsTJE7Ze2G9tBkF9EqJ3Q_c2ufawQ5-jmkZZ5hP67Avkcq2ZELobfvxNtltRZbjSmg-Vl6eVHkif_Y9FMAdUQB2wvx2RfciGLzpEAwtrS1m_38w"/>
+<h1 class="font-headline-xl text-headline-xl text-white mb-6 leading-tight">
+                Servicio profesional de plomería y electricidad en Coyoacán y CDMX
+            </h1>
+<p class="text-white/90 text-body-lg font-body-lg mb-10 max-w-xl">
+                Más de 15 años brindando soluciones estructurales con la integridad y rapidez que tu hogar merece. Tu tranquilidad es nuestro compromiso.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="inline-flex items-center justify-center gap-2 bg-secondary text-primary px-8 py-4 rounded font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-secondary-container transition-all shadow-lg active:scale-95" href="https://wa.me/525560054779">
+<span class="material-symbols-outlined">chat</span>
+                    Cotiza por WhatsApp
+                </a>
+<a class="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded font-label-md text-label-md font-bold uppercase tracking-wider hover:bg-white/10 transition-all" href="#servicios">
+                    Nuestros Servicios
+                </a>
+</div>
+</div>
+</div>
+</header>
+<!-- Value Prop -->
+<section class="py-16 bg-surface-container-low">
+<div class="max-w-max-width mx-auto px-6 md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-colors group">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary/10 rounded mb-6 group-hover:bg-secondary/20 transition-all">
+<span class="material-symbols-outlined text-secondary text-3xl">emergency_home</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Servicio 24/7</h3>
+<p class="text-on-surface-variant font-body-md">Atención inmediata para emergencias en cualquier momento del día o la noche.</p>
+</div>
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-colors group">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary/10 rounded mb-6 group-hover:bg-secondary/20 transition-all">
+<span class="material-symbols-outlined text-secondary text-3xl">verified</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Técnicos Certificados</h3>
+<p class="text-on-surface-variant font-body-md">Personal altamente capacitado y con años de experiencia técnica comprobable.</p>
+</div>
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-colors group">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary/10 rounded mb-6 group-hover:bg-secondary/20 transition-all">
+<span class="material-symbols-outlined text-secondary text-3xl">handshake</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Garantía de Trabajo</h3>
+<p class="text-on-surface-variant font-body-md">Todos nuestros servicios cuentan con respaldo por escrito para tu total seguridad.</p>
+</div>
+<div class="bg-surface p-8 border border-outline-variant hover:border-primary transition-colors group">
+<div class="w-12 h-12 flex items-center justify-center bg-secondary/10 rounded mb-6 group-hover:bg-secondary/20 transition-all">
+<span class="material-symbols-outlined text-secondary text-3xl">payments</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Precio Justo</h3>
+<p class="text-on-surface-variant font-body-md">Presupuestos transparentes sin cargos ocultos. Calidad premium a precio local.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services -->
+<section class="py-24 white-tile-pattern" id="servicios">
+<div class="max-w-max-width mx-auto px-6 md:px-margin-desktop">
+<div class="text-center mb-16">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-widest block mb-2">Soluciones Integrales</span>
+<h2 class="font-headline-xl text-headline-xl text-primary">Nuestros Servicios Especializados</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Plumbing Block -->
+<div class="bg-surface border border-outline-variant p-8 md:p-12">
+<div class="flex items-center gap-4 mb-8">
+<div class="bg-primary p-3 rounded">
+<span class="material-symbols-outlined text-white text-3xl">plumbing</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">Plomería Profesional</h3>
+</div>
+<ul class="space-y-6">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Reparación de Fugas</h4>
+<p class="text-on-surface-variant">Detección y sellado experto de filtraciones en tuberías ocultas y visibles.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Desazolve de Drenajes</h4>
+<p class="text-on-surface-variant">Limpieza profunda y liberación de obstrucciones en cañerías y bajadas.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Instalación de Calentadores</h4>
+<p class="text-on-surface-variant">Venta y mantenimiento de calentadores de paso, solares y de depósito.</p>
+</div>
+</li>
+</ul>
+</div>
+<!-- Electricity Block -->
+<div class="bg-surface border border-outline-variant p-8 md:p-12">
+<div class="flex items-center gap-4 mb-8">
+<div class="bg-primary p-3 rounded">
+<span class="material-symbols-outlined text-white text-3xl">bolt</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">Electricidad Certificada</h3>
+</div>
+<ul class="space-y-6">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Corrección de Cortos</h4>
+<p class="text-on-surface-variant">Diagnóstico rápido y reparación segura de fallas eléctricas residenciales.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Interruptores y Pastillas</h4>
+<p class="text-on-surface-variant">Cambio de centros de carga y actualización de sistemas de protección.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<div>
+<h4 class="font-bold text-primary">Instalaciones Nuevas</h4>
+<p class="text-on-surface-variant">Cableado estructurado, iluminación LED y tomas de corriente adicionales.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery -->
+<section class="py-24 bg-primary text-white overflow-hidden" id="galeria">
+<div class="max-w-max-width mx-auto px-6 md:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-widest block mb-2">Nuestro Portafolio</span>
+<h2 class="font-headline-xl text-headline-xl">Resultados que hablan por sí solos</h2>
+</div>
+<p class="max-w-md text-white/70">Comprometidos con la estética y la funcionalidad técnica en cada proyecto de remodelación y mantenimiento.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="aspect-square overflow-hidden group border border-white/10">
+<img alt="Instalación de lavabo profesional" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWbVTaPDxFLmnQAZ-86KyzpP4O0hwtOyKwf5HvnnmlDbaNt1mQfnXLBPBv2JsGOQydmF-KsbCw9XEzt2mUW-H-5q8G0DoBW1EH_I6-5aWnz-S9NupZEvwIo0_F0RYLk7v7AVDDIkuyt7atklHCpomUGvKkCT2rNssFfImD_LSicnHFAYU3Wg5AiuGWmD1-vgW2k_zp9QCHYYWRzJXDnb5aliulqBogiO-oNOSNKi9a1liG1EkLKFbiPg"/>
+</div>
+<div class="aspect-square overflow-hidden group border border-white/10">
+<img alt="Panel eléctrico certificado" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC01uVRCdIevgyrO2KDzN8KAr9yoQYZ2VCSRnCq7s29SMGfZUk4UO4MNI4iZywuNDIYyxukwPJJniPv-Fw8BxcszUNUAvzGvL84PH-6QZkoYoS80754lDeV4AgP9MSwKDtrhNJF3ku1BTE-zgce-ceg-FDXTq726PENdUDMtcPVGushRCoi3eloosWaSl2nx-ERlP7mvu7x76hMBG-qZHjMadh0QC5uDj9CJNTXy1IjXWAZt7iMmPvHkQ"/>
+</div>
+<div class="aspect-square overflow-hidden group border border-white/10">
+<img alt="Instalación de calentador de agua" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeSei-7h3P3d9j5i8K-3o-_LpBkj1gGrmBMe3PNRLcNTSsNgHmX0FY_tXkWzw_QQaGDMifqW1mah4N__2pNlpa6BzX0o23NoauH_arxgADmHswY7ePkYtrEU_gUNChGm32Fv9_rSVD-yWyyq4sy98ddAiTiuAWtmCUuqEdBEEt1T-aCPaQ54mYWwplEaHsyPXyKFHFyo_q4gzanocnTGtMMceTsg7tdcFxJ2fpOw5NbzyQ9J3X2X98GQ"/>
+</div>
+<div class="aspect-square overflow-hidden group border border-white/10">
+<img alt="Instalación de iluminación LED" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgfDnL8A59uuMbPcp9W7jTDs151ehamtw4WWYjiBK1K1J9a8Wo-7Jpl3I5ggph5eRzDru3S3TOdXZKpe19UInieIRVeFg4ZSz6O0J3eIqo5Y0kODL9EKgjT6EeHeRnERnGrvpEPowWvJvg7BoyqKv81_U1elbJJvEsYXRvh81vvgSmO3KLQVPtgsdYLfWYOu61_iB8pAPoOagMk7h2S2NS7AWItYNrXSmunUhei4XHjDdXcUgwDxavwQ"/>
+</div>
+<div class="aspect-square overflow-hidden group border border-white/10 lg:col-span-2 lg:aspect-video">
+<img alt="Remodelación integral de cocina en Coyoacán" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANG_0EBtprsNAQO5aAkCUnicoorNIBRo8OIqhpzAj55CFSxxsiSjWydlFMZTw5mcQLSQIlONsyLlkSxSEWJzqOCPmMJrswLDo6B3MIMZ3kcQLFJ544szUp9W3eThuUiY0XUOdXKxsdQkD8W0GpA2TnuAlucVdSGAm3fYm007oLbRzije7zcrdk5tIdr8RWv9iKP1NzcRI7fM-vW2HZsnx1fnen--SuWecE1bIewUurNTzZZRp_JDXihA"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Process -->
+<section class="py-24 bg-surface" id="proceso">
+<div class="max-w-max-width mx-auto px-6 md:px-margin-desktop">
+<div class="text-center mb-20">
+<h2 class="font-headline-xl text-headline-xl text-primary">Nuestro Proceso de Trabajo</h2>
+<p class="text-on-surface-variant mt-4">Transparencia y orden desde el primer contacto.</p>
+</div>
+<div class="relative">
+<div class="hidden lg:block absolute top-1/2 left-0 w-full h-0.5 bg-outline-variant -translate-y-1/2 z-0"></div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-16 relative z-10">
+<!-- Step 1 -->
+<div class="text-center">
+<div class="w-20 h-20 bg-secondary text-primary rounded-full flex items-center justify-center mx-auto mb-8 shadow-lg">
+<span class="material-symbols-outlined text-4xl">call</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Llámanos</h3>
+<p class="text-on-surface-variant font-body-md">Contáctanos por WhatsApp o teléfono para explicarnos tu problema. Atención inmediata.</p>
+</div>
+<!-- Step 2 -->
+<div class="text-center">
+<div class="w-20 h-20 bg-secondary text-primary rounded-full flex items-center justify-center mx-auto mb-8 shadow-lg">
+<span class="material-symbols-outlined text-4xl">search</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Diagnóstico</h3>
+<p class="text-on-surface-variant font-body-md">Visitamos tu domicilio para evaluar la situación y entregarte un presupuesto justo sin compromiso.</p>
+</div>
+<!-- Step 3 -->
+<div class="text-center">
+<div class="w-20 h-20 bg-secondary text-primary rounded-full flex items-center justify-center mx-auto mb-8 shadow-lg">
+<span class="material-symbols-outlined text-4xl">plumbing</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Reparación</h3>
+<p class="text-on-surface-variant font-body-md">Realizamos el trabajo con materiales de primera y entregamos tu garantía por escrito.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 bg-surface-container-high relative overflow-hidden">
+<div class="max-w-max-width mx-auto px-6 md:px-margin-desktop relative z-10">
+<div class="flex items-center gap-4 mb-12">
+<div class="bg-primary text-white px-4 py-2 rounded-full font-label-md text-label-md">
+                32 familias nos confían en Coyoacán
+            </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-surface p-8 shadow-sm border border-outline-variant">
+<div class="flex text-secondary-container mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="italic text-on-surface-variant mb-6">"Excelente servicio. Vinieron a media noche por una fuga en la cocina y lo arreglaron rapidísimo. Muy profesionales."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary-fixed rounded-full flex items-center justify-center text-primary font-bold">ML</div>
+<div>
+<span class="block font-bold text-primary">Mariana López</span>
+<span class="block text-label-sm text-on-surface-variant">Residente en Santa Catarina</span>
+</div>
+</div>
+</div>
+<div class="bg-surface p-8 shadow-sm border border-outline-variant">
+<div class="flex text-secondary-container mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="italic text-on-surface-variant mb-6">"Cambiaron todo el centro de carga de mi casa. Muy ordenados y limpios. Se nota que conocen su oficio."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary-fixed rounded-full flex items-center justify-center text-primary font-bold">RG</div>
+<div>
+<span class="block font-bold text-primary">Roberto García</span>
+<span class="block text-label-sm text-on-surface-variant">Empresario local</span>
+</div>
+</div>
+</div>
+<div class="bg-surface p-8 shadow-sm border border-outline-variant">
+<div class="flex text-secondary-container mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="italic text-on-surface-variant mb-6">"Honestidad pura. Me explicaron que solo era una pieza pequeña y no me quisieron cobrar de más. Altamente recomendados."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary-fixed rounded-full flex items-center justify-center text-primary font-bold">CP</div>
+<div>
+<span class="block font-bold text-primary">Carmen Pérez</span>
+<span class="block text-label-sm text-on-surface-variant">Vecina de Churubusco</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ -->
+<section class="py-24 white-tile-pattern">
+<div class="max-w-3xl mx-auto px-6 md:px-margin-desktop">
+<h2 class="font-headline-xl text-headline-xl text-primary text-center mb-12">Preguntas Frecuentes</h2>
+<div class="space-y-4">
+<details class="bg-surface border border-outline-variant group">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-primary">¿Atienden emergencias en la madrugada?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant border-t border-outline-variant/30">
+                    Sí, contamos con un equipo de guardia 24/7 para plomería y electricidad. El tiempo estimado de llegada en Coyoacán es de 30 a 45 minutos.
+                </div>
+</details>
+<details class="bg-surface border border-outline-variant group">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-primary">¿Tiene costo el diagnóstico?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant border-t border-outline-variant/30">
+                    La visita técnica tiene un costo mínimo recuperable que se bonifica al costo total si decides realizar el trabajo con nosotros.
+                </div>
+</details>
+<details class="bg-surface border border-outline-variant group">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-primary">¿Qué garantía ofrecen?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant border-t border-outline-variant/30">
+                    Todos nuestros trabajos están garantizados por escrito por un periodo de 3 a 12 meses dependiendo del tipo de reparación realizada.
+                </div>
+</details>
+<details class="bg-surface border border-outline-variant group">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-bold text-primary">¿Qué zonas de la CDMX cubren?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="p-6 pt-0 text-on-surface-variant border-t border-outline-variant/30">
+                    Nuestra base principal está en Coyoacán, pero cubrimos Benito Juárez, Tlalpan, Álvaro Obregón y gran parte de la zona sur de CDMX.
+                </div>
+</details>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="bg-primary text-white py-24" id="contacto">
+<div class="max-w-max-width mx-auto px-6 md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-headline-xl text-headline-xl mb-6">¿Necesitas ayuda urgente?</h2>
+<p class="text-white/80 text-body-lg font-body-lg mb-10">
+                    No dejes que una pequeña falla se convierta en un gran problema estructural. Estamos listos para ayudarte ahora mismo.
+                </p>
+<div class="space-y-8">
+<a class="inline-flex items-center gap-4 bg-[#25D366] text-white px-10 py-6 rounded-full font-headline-md text-headline-md font-bold transition-transform hover:scale-105 active:scale-95 shadow-xl" href="https://wa.me/525560054779">
+<span class="material-symbols-outlined text-4xl">chat</span>
+                        55 6005 4779
+                    </a>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">location_on</span>
+<div>
+<h4 class="font-bold text-lg">Dirección:</h4>
+<p class="text-white/70">Calz. Gral. Anaya 220-int 7,<br/>San Diego Churubusco, Coyoacán, CDMX.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary text-3xl">mail</span>
+<div>
+<h4 class="font-bold text-lg">Correo electrónico:</h4>
+<a class="text-white/70 hover:text-white transition-colors" href="mailto:sanchez.plomeros@gmail.com">sanchez.plomeros@gmail.com</a>
+</div>
+</div>
+</div>
+</div>
+<a class="bg-surface-container-low p-2 rounded shadow-2xl overflow-hidden h-[400px] block group" href="https://maps.app.goo.gl/HV3SJAWgkeHeHbfYA" target="_blank">
+<div class="w-full h-full bg-surface-container-high relative">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBUWumR8vvASKGZZVf5nXcKk1iDQdATCFB8XP0jUA44mdGD5Klfg5qarqeoqpFcEc_S2CntyhpSR0cIsJhG0SV69keCU7SJI4AoGPKXCVwc-SYtVxKspmJ8TvHRFutT58jDl9mpPmpdEM69u6UU5QLcRe1ua1u5YDY0uyul6sX2GGY_GgtCOC3DFHO_5qA1nYE9xFB2qhF0UeFzcdhXVQoO0xhxemX3eQ_uHwCs9vdkuVkwWfBSl6rl1w')"></div>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="bg-white text-primary px-4 py-2 rounded-full shadow-lg font-bold flex items-center gap-2">
+<span class="material-symbols-outlined">map</span> Ver en Google Maps
+                        </div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary border-t border-white/10 pt-16 pb-8">
+<div class="max-w-max-width mx-auto px-6 md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-12">
+<div>
+<img alt="Logo Sánchez" class="h-12 w-auto mb-6 brightness-0 invert opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDI2H0wwFc6BhggX4Z6_MIh8-KUNq_T2jA5mFdK-yPiWTBMfpDosRW22GUR1Vyk2Ub0P0-_SsvHB_PDEsW-KCF6jahtSymkHRxK7QLv_CaK2xui7te-zsIcjVpEzMkgVxRNFIWDNdsrsbxkiyytdxNa7LWVzo2GsWA6RkgrHqzvjwlDwINY8ETlkFQxGxem1JtKhKXuyHys77ZLmYVaKxbtEQB-r4hRf8ryCv8XuF2xMnRoOoAtHwUk1uTBHmyR3udiyLs"/>
+<p class="text-white/60 font-body-md">Soluciones de plomería y electricidad con el respaldo de técnicos certificados y un trato familiar honesto.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-secondary font-label-md text-label-md uppercase tracking-widest">Navegación</h4>
+<nav class="flex flex-col gap-2">
+<a class="text-white/80 hover:text-secondary transition-colors" href="#inicio">Inicio</a>
+<a class="text-white/80 hover:text-secondary transition-colors" href="#servicios">Servicios</a>
+<a class="text-white/80 hover:text-secondary transition-colors" href="#galeria">Galería</a>
+<a class="text-white/80 hover:text-secondary transition-colors" href="#proceso">Proceso</a>
+<a class="text-white/80 hover:text-secondary transition-colors" href="#contacto">Contacto</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-secondary font-label-md text-label-md uppercase tracking-widest">Información</h4>
+<p class="text-white/60">Aviso de Privacidad</p>
+<div class="flex gap-4 mt-4">
+<a aria-label="Facebook" class="text-white/50 hover:text-white transition-colors" href="https://www.facebook.com/PlomeriayElectricidadSanchez/" target="_blank">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7h-2.54v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89 1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 008.44-9.9c0-5.53-4.5-10.02-10-10.02z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-white/5 text-center">
+<p class="text-white/40 text-label-sm font-label-sm uppercase">© 2024 Plomería y Electricidad Sánchez. Coyoacán, CDMX. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+<!-- Floating WhatsApp Button -->
+<div class="fixed bottom-8 right-8 z-[100] group">
+<span class="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-white text-primary px-3 py-1 rounded text-sm font-bold shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">Emergencia 24/7</span>
+<a class="w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-2xl hover:scale-110 transition-transform pulse-ring" href="https://wa.me/525560054779">
+<svg class="w-10 h-10 fill-current" viewbox="0 0 24 24">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path>
+</svg>
+</a>
+</div>
+<script>
+    // Smooth scroll implementation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            if (href.startsWith('#')) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
+</script>
+</body></html>
