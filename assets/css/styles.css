@@ -150,11 +150,16 @@ details summary {
 
 details[open] summary {
     background-color: #002869 !important;
-    color: #ffffff !important;
+    color: #fccc38 !important;
+}
+
+details[open] summary span,
+details[open] summary * {
+    color: #fccc38 !important;
 }
 
 details[open] summary .material-symbols-outlined {
-    color: #fccc38;
+    color: #fccc38 !important;
     transform: rotate(180deg);
 }
 
