@@ -75,7 +75,7 @@ El sitio no requiere un proceso de compilación complejo (*zero-build step*) ya 
 - **WhatsApp Urgencias 24/7:** [+52 55 6005 4779](https://wa.me/525560054779?text=Hola,%20vi%20su%20página%20web%20y%20tengo%20una%20emergencia%20de%20plomería/electricidad)
 - **Correo Electrónico:** [sanchez.plomeros@gmail.com](mailto:sanchez.plomeros@gmail.com)
 - **Facebook Oficial:** [Plomería y Electricidad Sánchez](https://www.facebook.com/PlomeriayElectricidadSanchez/)
-- **Google Maps:** [Ver Ubicación en Maps](https://maps.app.goo.gl/HV3SJAWgkeHeHbfYA)
+- **Google Maps:** [Ver Ubicación en Maps](https://maps.app.goo.gl/gEVf4vDnbQiYVtP28)
 - **Confianza Local:** Más de 32 familias y empresas en Coyoacán respaldan nuestro trabajo.
 
 ---
